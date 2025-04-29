@@ -1,8 +1,12 @@
 body  {
     background-color: #1F2937;
     color: #E5E7EB;
-    font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow';
-    margin: 0 128px;
+    font-family: Roboto;
+    margin: 0;
+}
+
+.section {
+    padding: 0 128px;
 }
 
 button {
@@ -33,16 +37,32 @@ img {
     max-width: 50%;
 }
 
-.hero {
+h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+h3 {
+    margin: 24px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+h4 {
+    margin: 0;
 }
 
 .header {
     color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
     display: flex;
     justify-content: space-between;
 }
@@ -60,16 +80,54 @@ img {
 .body-2 {
     background-color: white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .body-3 {
     background-color: #E5E7EB;
     color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 128px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoted {
+    font-size: 24px;
+    align-self: flex-end;
 }
 
 .body-4 {
     background-color: white;
-    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 2%;
+    padding: 32px 64px;
+    margin: 64px;
+    display: flex;
+    gap: 64px;
 }
 
 .footer {
