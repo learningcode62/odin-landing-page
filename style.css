@@ -76,6 +76,7 @@ h4 {
 
 .body-1 {
     display: flex;
+    justify-content: center;
     flex: 1;
     margin: 64px 0;
 }
