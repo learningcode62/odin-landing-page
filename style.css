@@ -35,8 +35,13 @@ li {
     padding-left: 16px;
 }
 
-img {
+.placeholder_img {
     max-width: 50%;
+    align-self: center;
+}
+
+.img_with_subtext {
+    max-width: 75%;
 }
 
 h1 {
@@ -53,7 +58,7 @@ h2 {
 }
 
 h3 {
-    margin: 24px;
+    margin: 0 0 24px 0;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
@@ -80,6 +85,7 @@ h4 {
 }
 
 .body-2 {
+    padding: 32px 128px;
     background-color: white;
     color: black;
     display: flex;
