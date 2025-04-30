@@ -12,9 +12,10 @@ body  {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 4px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
     border-color: white;
+    align-self: start;
 }
 
 ul {
